@@ -8,7 +8,7 @@ name_hash.each do |key, value|
   end
     next if value > v
 end
-  if name_hash = {}
+  if name_hash.empty? == true
     return nil 
   end
 return k 
