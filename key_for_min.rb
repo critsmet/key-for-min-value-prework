@@ -8,5 +8,8 @@ name_hash.each do |key, value|
   end
     next if value > v
 end
+  if name_hash = {}
+    return nil 
+  end
 return k 
 end
