@@ -6,6 +6,7 @@ name_hash.each do |key, value|
     v = value
     k = key
   elsif next
+else return nil
 return k
 end
 end
