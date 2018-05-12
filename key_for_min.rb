@@ -4,7 +4,7 @@ v = 1000
 name_hash.each do |key, value|
     if name_hash == {}
       return nil
-    if value < v
+    else value < v
     v = value
     k = key
   end
