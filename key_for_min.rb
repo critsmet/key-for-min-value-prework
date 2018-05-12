@@ -5,8 +5,6 @@ name_hash.each do |key, value|
   next if value < v
     v = value
     k = key
-else 
-  return nil
 return k
 end
 end
